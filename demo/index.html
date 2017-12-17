@@ -6,8 +6,12 @@
 
     <title>sortable-list demo</title>
 
-    <link rel="import" href="../sortable-list.html">
-    <link rel="import" href="../../polymer/lib/elements/dom-repeat.html">
+    <!--<link rel="import" href="../sortable-list.html">-->
+    <!--<link rel="import" href="../../polymer/lib/elements/dom-repeat.html">-->
+
+    <script src="../sortable-list.js" type="module"></script>
+    <script src="../../node_modules/@polymer/polymer/lib/elements/dom-repeat.js" type="module"></script>
+
 
     <style>
       body {
@@ -43,6 +47,14 @@
           </div>
         </template>
       </dom-repeat>
+    </sortable-list>
+
+    <h1>Drag the items 2</h1>
+
+    <sortable-list>
+      <div>Item 1</div>
+      <div>Item 2</div>
+      <div>Item 3</div>
     </sortable-list>
 
     <script>

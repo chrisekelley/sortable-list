@@ -1,0 +1,15 @@
+{
+  "name": "sortable-list",
+  "flat": true,
+  "version": "3.0.0-pre.1",
+  "main": "sortable-list.js",
+  "authors": [
+    "Pedro Garcia <pdgago@gmail.com>"
+  ],
+  "license": "ISC",
+  "scripts": {
+  },
+  "dependencies": {
+    "@polymer/polymer": "LasaleFamine/polymer#3.0-preview"
+  }
+}
